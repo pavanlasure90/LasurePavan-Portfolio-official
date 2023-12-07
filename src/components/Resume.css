@@ -1,0 +1,24 @@
+.resumeComponent{
+    margin: 1px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgb(58, 55, 55);
+    color: white;
+    cursor: pointer;
+    margin-top: 1.4rem;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.resumeComponent h1{
+    text-align: start;
+}
+
+.resumeComponent ul li{
+    text-decoration:dotted ;
+}
+
+span{
+    color: gold;
+}
