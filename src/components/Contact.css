@@ -51,6 +51,8 @@
     border-radius: 5px;
     border: 1px solid gray;
     border-radius: 14px;
+    color: white;
+    outline: none;
     background-color: rgb(58, 55, 55);
   }
   
