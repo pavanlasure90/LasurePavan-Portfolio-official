@@ -1,12 +1,13 @@
 .navbar {
     position: fixed;
     bottom: 0;
+    margin-top: 12px;
     width: 100%;
     left: 0;
     background-color: #333;
     color: white;
     border: 1px solid gray;
-    border-radius: 18px;
+    border-radius: 10px;
   }
   
   .navbar ul {
