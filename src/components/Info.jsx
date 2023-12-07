@@ -39,14 +39,22 @@ const Info = () => {
 
   return (
     <div className="container" onClick={toggleDropdown}>
+      <div style={{ position: "relative" , top:0 , right:0}}>
+      <img
+          className='arrow'
+          src="./assets/arrow.png"
+          alt=""
+          style={{ position: "absolute", top: 0, right: 0, height:"20px"}}
+        />
+      </div>
       <div className='boxflex'>
-      <div className='container-left'>
-        <img src="./assets/my-avatar.png" alt="" />
-      </div>
-      <div className='container-right'>
-        <h1>Lasure Pavan</h1>
-        <h4 >Web developer</h4>
-      </div>
+        <div className='container-left'>
+          <img src="./assets/my-avatar.png" alt="" />
+        </div>
+        <div className='container-right'>
+          <h1>Lasure Pavan</h1>
+          <h4>Web developer</h4>
+        </div>
       </div>
       
       <hr />

@@ -21,6 +21,10 @@ select {
     cursor: pointer;
   }
 
+  option{
+    width: 80%;
+  }
+
   .box{
     text-align: left;
     color: white;
