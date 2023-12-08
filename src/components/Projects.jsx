@@ -7,8 +7,10 @@ const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
 
   const categorizedProjects = [
-    { title: 'Linklens', category: 'Web Design', link: 'https://linklenshub.netlify.app', imgSrc: './assets/linklensImg.png' },
-    { title: 'Cinema Elk', category: 'Web Design', link: 'https://cinema-elk-dynamic.netlify.app', imgSrc: './assets/CinemaElkImg.png' },
+    { title: 'Instabuy', category: 'Web Development', link: 'https://instabuydynamic.netlify.app', imgSrc: './assets/instabuy.jpeg' },
+    { title: 'Ticketbox', category: 'Web Development', link: 'https://ticketboxdynamic.netlify.app', imgSrc: './assets/ticketbox.jpeg' },
+    { title: 'Instagram Clone', category: 'Web Development', link: 'https://instagramproject-static.netlify.app', imgSrc: './assets/insta.jpg' },
+    
   ];
 
   const applicationProjects = [
@@ -24,9 +26,8 @@ const Projects = () => {
 
 
   const webDevelopmentProjects = [
-    { title: 'Instabuy', category: 'Web Development', link: 'https://instabuydynamic.netlify.app', imgSrc: './assets/instabuy.jpeg' },
-    { title: 'Ticketbox', category: 'Web Development', link: 'https://ticketboxdynamic.netlify.app', imgSrc: './assets/ticketbox.jpeg' },
-    { title: 'Instagram Clone', category: 'Web Development', link: 'https://instagramproject-static.netlify.app', imgSrc: './assets/insta.jpg' },
+    { title: 'Linklens', category: 'Web Design', link: 'https://linklenshub.netlify.app', imgSrc: './assets/linklensImg.png' },
+    { title: 'Cinema Elk', category: 'Web Design', link: 'https://cinema-elk-dynamic.netlify.app', imgSrc: './assets/CinemaElkImg.png' },
   ];
 
   const filteredProjects =
@@ -54,7 +55,7 @@ const Projects = () => {
         <select value={selectedCategory} onChange={(e) => setSelectedCategory(e.target.value)}>
           <option value='All'>All</option>
           <option value='Web Design'>Web Design</option>
-          <option value='Applications'>Applications</option>
+          <option value='Applications'> Web Applications</option>
           <option value='Web Development'>Web Development</option>
         </select>
 

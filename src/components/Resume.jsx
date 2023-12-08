@@ -46,6 +46,8 @@ const Resume = () => {
               <h3><li>React Js, Node Js <span>80%</span> </li></h3>
               <h3><li>Redux, React-Router <span>70%</span></li></h3>
               <h3><li>HTML, CSS, Javascript <span>70%</span></li></h3>
+              <h3><li>Firebase <span>80%</span></li></h3>
+              <h3><li>Node JS, Express JS, Mongo DB <span>70%</span></li></h3>
             </ul>
       </div>
 
