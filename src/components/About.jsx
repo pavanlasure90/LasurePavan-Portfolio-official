@@ -40,7 +40,7 @@ const About = () => {
             <div className='testimonial-content'>
               <img className='testimonial-image' src="./assets/avatar-1.png" alt="" />
               <h3>Vivek</h3>
-              <p>Lasure Pavan is an accomplished frontend developer specializing in React JS. With a deep understanding of the React ecosystem, Ankit consistently delivers robust and scalable solutions. His expertise in crafting dynamic user interfaces and optimizing React applications makes him a reliable choice for projects demanding top-tier React development skills.</p>
+              <p>Lasure Pavan is an accomplished full stack developer specializing in React JS. With a deep understanding of the React ecosystem, Ankit consistently delivers robust and scalable solutions. His expertise in crafting dynamic user interfaces and optimizing React applications makes him a reliable choice for projects demanding top-tier React development skills.</p>
             </div>
             </div>
 
