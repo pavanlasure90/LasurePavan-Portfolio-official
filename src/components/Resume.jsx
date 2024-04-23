@@ -31,7 +31,7 @@ const Resume = () => {
 
         <h2>Experience</h2>
         <ul>
-          <li>Stack Developer Teainee</li>
+          <li>Stack Developer Trainee</li>
           <span>2022-2023</span>
           <p>Cynohub</p>
 
