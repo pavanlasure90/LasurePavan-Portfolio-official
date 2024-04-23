@@ -28,6 +28,8 @@ const Projects = () => {
   const webDevelopmentProjects = [
     { title: 'Linklens', category: 'Web Design', link: 'https://linklenshub.netlify.app', imgSrc: './assets/linklensImg.png' },
     { title: 'Cinema Elk', category: 'Web Design', link: 'https://cinema-elk-dynamic.netlify.app', imgSrc: './assets/CinemaElkImg.png' },
+    { title: 'KraftSix Ecommerce', category: 'Web Design', link: 'https://kraftsix-ecommerce-shopingsite.netlify.app/', imgSrc: './assets/KraftSix-Img.png' },
+
   ];
 
   const filteredProjects =
